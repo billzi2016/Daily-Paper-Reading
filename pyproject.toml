@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "daily-paper-reading"
+version = "0.1.0"
+description = "Daily arxiv CS AI/LLM paper reader with local LLM analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.scripts]
+daily-papers = "main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*.py"]

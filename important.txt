@@ -1,0 +1,153 @@
+# Landmark AI/ML/CS papers — always include regardless of date filter
+# Format: arxiv_id | title
+
+# === Transformer & Attention ===
+1706.03762 | Attention Is All You Need
+1409.0473  | Neural Machine Translation by Jointly Learning to Align and Translate
+1409.3215  | Sequence to Sequence Learning with Neural Networks
+2001.04451 | Reformer: The Efficient Transformer
+2004.05150 | Longformer: The Long-Document Transformer
+2006.04768 | Linformer: Self-Attention with Linear Complexity
+2101.03961 | Switch Transformers: Scaling to Trillion Parameter Models
+2005.14165 | Language Models are Few-Shot Learners (GPT-3)
+
+# === Vision Transformers & Image Models ===
+2010.11929 | An Image is Worth 16x16 Words (ViT)
+1409.1556  | Very Deep Convolutional Networks (VGG)
+1409.4842  | Going Deeper with Convolutions (GoogLeNet)
+1512.03385 | Deep Residual Learning for Image Recognition (ResNet)
+1608.06993 | Densely Connected Convolutional Networks (DenseNet)
+1505.04597 | U-Net: Convolutional Networks for Biomedical Image Segmentation
+1506.02640 | You Only Look Once: Unified, Real-Time Object Detection (YOLO)
+1506.01497 | Faster R-CNN
+1704.04861 | MobileNets
+1905.11946 | EfficientNet
+2111.06377 | Masked Autoencoders Are Scalable Vision Learners (MAE)
+2104.14294 | Emerging Properties in Self-Supervised Vision Transformers (DINO)
+2304.07193 | DINOv2: Learning Robust Visual Features without Supervision
+
+# === BERT & Language Model Pretraining ===
+1810.04805 | BERT: Pre-training of Deep Bidirectional Transformers
+1802.05365 | Deep contextualized word representations (ELMo)
+1906.08237 | XLNet: Generalized Autoregressive Pretraining
+1907.11692 | RoBERTa: A Robustly Optimized BERT Pretraining Approach
+1909.11942 | ALBERT: A Lite BERT for Self-supervised Learning
+1910.01108 | DistilBERT, a distilled version of BERT
+1910.10683 | Exploring the Limits of Transfer Learning with T5
+1910.13461 | BART: Denoising Sequence-to-Sequence Pre-training
+2006.03654 | DeBERTa: Decoding-enhanced BERT with Disentangled Attention
+
+# === LLMs ===
+2302.13971 | LLaMA: Open and Efficient Foundation Language Models
+2307.09288 | Llama 2: Open Foundation and Fine-Tuned Chat Models
+2204.02311 | PaLM: Scaling Language Modeling with Pathways
+2203.15556 | Training Compute-Optimal Large Language Models (Chinchilla)
+2205.01068 | OPT: Open Pre-trained Transformer Language Models
+2310.06825 | Mistral 7B
+2401.04088 | Mixtral of Experts
+2309.16609 | Qwen Technical Report
+2401.02954 | DeepSeek LLM
+2405.04434 | DeepSeek-V2
+2403.08295 | Gemma: Open Models Based on Gemini Research
+2407.21783 | The Llama 3 Herd of Models
+2312.00752 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces
+2307.08621 | Retentive Network (RetNet)
+2305.13048 | RWKV: Reinventing RNNs for the Transformer Era
+
+# === Efficient Training & Scaling ===
+1412.6980  | Adam: A Method for Stochastic Optimization
+1502.03167 | Batch Normalization
+1607.06450 | Layer Normalization
+1606.08415 | Gaussian Error Linear Units (GELUs)
+1710.03740 | Mixed Precision Training
+1910.02054 | ZeRO: Memory Optimizations Toward Training Trillion Parameter Models
+1909.08053 | Megatron-LM: Training Multi-Billion Parameter Language Models
+2101.06840 | DeepSpeed: System Optimizations Enable Training Deep Learning Models
+
+# === Efficient Fine-tuning / PEFT ===
+2106.09685 | LoRA: Low-Rank Adaptation of Large Language Models
+2305.14314 | QLoRA: Efficient Finetuning of Quantized LLMs
+1902.00751 | Parameter-Efficient Transfer Learning (Adapter)
+2101.00190 | Prefix-Tuning: Optimizing Continuous Prompts for Generation
+2104.08691 | The Power of Scale for Parameter-Efficient Prompt Tuning
+
+# === Alignment & RLHF ===
+2203.02155 | Training language models to follow instructions (InstructGPT)
+2212.08073 | Constitutional AI: Harmlessness from AI Feedback
+2305.18290 | Direct Preference Optimization (DPO)
+2009.01325 | Learning to summarize from human feedback
+
+# === Reasoning & Prompting ===
+2201.11903 | Chain-of-Thought Prompting Elicits Reasoning in LLMs
+2203.11171 | Self-Consistency Improves Chain of Thought Reasoning
+2205.10625 | Least-to-Most Prompting Enables Complex Reasoning
+2305.10601 | Tree of Thoughts: Deliberate Problem Solving with LLMs
+2210.03629 | ReAct: Synergizing Reasoning and Acting in LLMs
+2302.04761 | Toolformer: Language Models Can Teach Themselves to Use Tools
+
+# === RAG & Memory ===
+2005.11401 | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+1410.3916  | Memory Networks
+1410.5401  | Neural Turing Machines
+
+# === Diffusion & Generative Models ===
+2006.11239 | Denoising Diffusion Probabilistic Models (DDPM)
+2112.10752 | High-Resolution Image Synthesis with Latent Diffusion Models (LDM)
+2010.02502 | Score-Based Generative Modeling through SDEs
+1312.6114  | Auto-Encoding Variational Bayes (VAE)
+1406.2661  | Generative Adversarial Networks (GAN)
+1812.04948 | A Style-Based Generator Architecture (StyleGAN)
+1809.11096 | Large Scale GAN Training (BigGAN)
+2204.06125 | Hierarchical Text-Conditional Image Generation (DALL-E 2)
+2205.11487 | Photorealistic Text-to-Image Diffusion Models (Imagen)
+2103.00020 | Learning Transferable Visual Models (CLIP)
+
+# === Multimodal ===
+2201.12086 | BLIP: Bootstrapping Language-Image Pre-training
+2301.12597 | BLIP-2: Bootstrapping Language-Image Pre-training with Frozen LLMs
+2304.08485 | Visual Instruction Tuning (LLaVA)
+2304.10592 | MiniGPT-4
+2304.02643 | Segment Anything (SAM)
+
+# === Self-Supervised Learning ===
+2002.05709 | A Simple Framework for Contrastive Learning (SimCLR)
+1911.05722 | Momentum Contrast for Unsupervised Visual Representation Learning (MoCo)
+2006.07733 | Bootstrap Your Own Latent (BYOL)
+2103.03230 | Barlow Twins: Self-Supervised Learning via Redundancy Reduction
+
+# === Reinforcement Learning ===
+1312.5602  | Playing Atari with Deep Reinforcement Learning (DQN)
+1707.06347 | Proximal Policy Optimization (PPO)
+1602.01783 | Asynchronous Methods for Deep Reinforcement Learning (A3C)
+1801.01290 | Soft Actor-Critic (SAC)
+1502.05477 | Trust Region Policy Optimization (TRPO)
+1710.02298 | Rainbow: Combining Improvements in Deep Reinforcement Learning
+
+# === Graph Neural Networks ===
+1609.02907 | Semi-Supervised Classification with Graph Convolutional Networks (GCN)
+1706.02216 | Inductive Representation Learning on Large Graphs (GraphSAGE)
+1710.10903 | Graph Attention Networks (GAT)
+1810.00826 | How Powerful are Graph Neural Networks (GIN)
+
+# === Classic NLP ===
+1301.3781  | Efficient Estimation of Word Representations in Vector Space (Word2Vec)
+1402.3722  | GloVe: Global Vectors for Word Representation
+1506.03134 | Pointer Networks
+
+# === Neural Architecture Search ===
+1611.01578 | Neural Architecture Search with Reinforcement Learning
+1806.09055 | DARTS: Differentiable Architecture Search
+
+# === Regularization & Optimization ===
+1207.0580  | Dropout
+1412.6980  | Adam
+2304.01373 | Sophia: A Scalable Stochastic Second-order Optimizer
+
+# === Interpretability ===
+1602.04938 | Why Should I Trust You? Explaining Predictions of Any Classifier (LIME)
+1705.07874 | A Unified Approach to Interpreting Model Predictions (SHAP)
+
+# === Classic ML ===
+1206.4635  | Practical Bayesian Optimization of Machine Learning Algorithms
+1503.02531 | Distilling the Knowledge in a Neural Network (Knowledge Distillation)
+1207.7214  | Theano: A Python framework for fast computation of mathematical expressions
