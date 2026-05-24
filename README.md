@@ -2,6 +2,8 @@
 
 每日自动筛选 arxiv CS AI/LLM 相关论文，用本地大模型生成中文技术分析，每篇单独 git commit，push 到 GitHub 染绿贡献图。
 
+做到100%全自动arxiv论文舆情监控(需要kaggle api)
+
 ## 依赖
 
 - Python 3.11+
